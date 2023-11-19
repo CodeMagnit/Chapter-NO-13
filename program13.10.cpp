@@ -42,8 +42,9 @@ int main()
     float pr;
     TV one;
     one.input();
-    cout<<"Data Before Updating<<endl";
+    cout<<"Data Before Updating"<<endl;
     one.show();
+    cin.ignore();
     cout<<"Enter Brand Name: ";
         getline(cin,bn);
         cout<<"Enter Model: ";
